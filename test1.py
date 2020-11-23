@@ -14,6 +14,10 @@ import sys  # To find out the script name (in argv[0])
 
 import backtrader as bt
 
+import matplotlib
+
+matplotlib.use('AGG')
+
 # Create a Stratey
 class TestStrategy(bt.Strategy):
 
